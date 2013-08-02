@@ -26,4 +26,17 @@ Testapp::Application.routes.draw do
   # STEP 5: add code to html with: <%=...%> & <%...%>
   # STEP 6: share between controller/view with @
 
+
+
+
+  # resources :cds
+
+  # match "/cds" => "cds#index", :via => "GET", :as => "cds" 
+  # match "/cds/new" => "cds#new", :via => "GET", :as => "new_cd"
+  # match "/cds" => "cds#create", :via => "POST"
+  # match "/cds/:id" => "cds#show", :via => "GET", :as => "cd" # cd_path(:id => "123"), cd_path(@cd)
+  # match "/cds/:id/edit" => "cds#edit", :via => "GET", :as => "edit_cd"
+  # match "/cds/:id" => "cds#update", :via => "PUT"
+  # match "/cds/:id" => "cds#destroy", :via => "DELETE"
+
 end
