@@ -42,5 +42,4 @@ Testapp::Application.routes.draw do
   # rails generate migration "filename"
   # rake routes
   # rake db:migrate / db:create / db:drop / db:reset / db:rollback
-
 end
